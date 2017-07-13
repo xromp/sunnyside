@@ -1,0 +1,28 @@
+[debug] [2017-07-13T12:44:06.279Z] ----------------------------------------------------------------------
+[debug] [2017-07-13T12:44:06.283Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\rom\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-13T12:44:06.283Z] CLI Version:  3.9.1
+[debug] [2017-07-13T12:44:06.283Z] Platform:     win32
+[debug] [2017-07-13T12:44:06.283Z] Node Version: v6.9.4
+[debug] [2017-07-13T12:44:06.283Z] Time:         Thu Jul 13 2017 20:44:06 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-07-13T12:44:06.283Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-13T12:44:06.303Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-13T12:44:06.303Z] > authorizing via signed-in user
+[debug] [2017-07-13T12:44:06.307Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sunnysideapp-2a126  
+ Thu Jul 13 2017 20:44:06 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-07-13T12:44:08.381Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-13T12:44:08.384Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sunnysideapp-2a126/tokens  
+ Thu Jul 13 2017 20:44:08 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-07-13T12:44:10.622Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'c:\firebase\sunnyside'...
+[info] 
+[debug] [2017-07-13T12:44:10.634Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/sunnysideapp-2a126  
+ Thu Jul 13 2017 20:44:10 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-07-13T12:44:12.464Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-13T12:44:12.464Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/974007666190/clients/_:getWebAppConfig  
+ Thu Jul 13 2017 20:44:12 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2017-07-13T12:44:13.282Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
